@@ -1,5 +1,5 @@
-mod tests {
-    fn derp() {
+pub mod derp {
+    pub fn derp() {
         println!("DERP");
     }
 }
